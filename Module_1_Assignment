@@ -1,0 +1,265 @@
+# Module 1 – Fundamentals
+
+---
+
+## 1. What is SDLC?
+
+**SDLC (Software Development Life Cycle)** is a structured process used to design, develop, test, and maintain software applications efficiently and with good quality.
+
+---
+
+## 2. What is Software Testing?
+
+**Software testing** is the process of evaluating a software application to identify defects and ensure it meets the specified requirements and works as expected.
+
+---
+
+## 3. What is Agile Methodology?
+
+**Agile methodology** is a flexible and iterative approach to software development where requirements, solutions, and testing evolve through collaboration between cross-functional teams.
+
+---
+
+## 4. What is SRS?
+
+**SRS (Software Requirement Specification)** is a detailed document that describes:
+
+- Functional requirements  
+- Non-functional requirements  
+- System behavior  
+- Constraints  
+
+It acts as a contract between the client and the development team.
+
+---
+
+## 5. What is OOPS?
+
+Some topics have been moved to another module as per the new syllabus; therefore, these topics were not covered by the instructor.
+
+---
+
+## 6. Basic Concepts of OOPS
+
+*(Moved to another module as per syllabus)*
+
+---
+
+## 7. What is an Object?
+
+*(Moved to another module as per syllabus)*
+
+---
+
+## 8. What is a Class?
+
+*(Moved to another module as per syllabus)*
+
+---
+
+## 9. What is Encapsulation?
+
+*(Moved to another module as per syllabus)*
+
+---
+
+## 10. What is Inheritance?
+
+*(Moved to another module as per syllabus)*
+
+---
+
+## 11. What is Polymorphism?
+
+Some topics have been moved to another module as per the new syllabus; therefore, these topics were not covered by the instructor.
+
+---
+
+## 12. Use Case Diagram – Online Bill Payment System (Paytm)
+
+### Actors
+- User
+- Bank
+- Admin
+
+### Use Cases
+- Register / Login  
+- Add Bank Account  
+- View Bills  
+- Pay Bill  
+- Transaction History  
+
+**Flow:**
+- User → Login → View Bills → Pay Bill  
+- User → Check History  
+- Admin → Manage Users  
+- Bank → Process Payment  
+
+---
+
+## 13. Use Case Diagram – Banking System (Customer)
+
+### Actors
+- Customer
+- Bank System
+
+### Use Cases
+- Login  
+- Check Balance  
+- Transfer Money  
+- Deposit  
+- Withdraw  
+- Logout  
+
+**Flow:**
+- Customer → Login  
+- Customer → Check Balance  
+- Customer → Transfer Money  
+- Customer → Logout  
+
+---
+
+## 14. Use Case Diagram – Broadcasting System
+
+### Actors
+- Viewer
+- Admin
+
+### Use Cases
+- Watch Channel  
+- Change Channel  
+- View Program Schedule  
+- Manage Content (Admin)  
+
+**Flow:**
+- Viewer → Watch Program  
+- Viewer → Change Channel  
+- Admin → Upload Content  
+
+---
+
+## 15. SDLC Phases with Basic Introduction
+
+1. **Requirement Analysis** – Collect user requirements  
+2. **Design** – Create system architecture  
+3. **Development** – Coding  
+4. **Testing** – Find defects  
+5. **Deployment** – Release software  
+6. **Maintenance** – Bug fixing and updates  
+
+---
+
+## 16. Phases of Waterfall Model
+
+1. Requirement Analysis  
+2. System Design  
+3. Implementation  
+4. Testing  
+5. Deployment  
+6. Maintenance  
+
+---
+
+## 17. Phases of Spiral Model
+
+1. Planning  
+2. Risk Analysis  
+3. Engineering  
+4. Evaluation  
+
+---
+
+## 18. Agile Manifesto Principles
+
+1. Customer satisfaction  
+2. Welcome changing requirements  
+3. Frequent delivery  
+4. Business & developer collaboration  
+5. Working software  
+6. Face-to-face communication  
+7. Sustainable development  
+8. Technical excellence  
+9. Simplicity  
+10. Self-organizing teams  
+11. Continuous improvement  
+
+---
+
+## 19. Agile Model – Working, Pros & Cons
+
+### Working Methodology
+- Work is divided into sprints  
+- Continuous testing and feedback  
+- Daily stand-up meetings  
+- Frequent releases  
+
+### Pros
+- Flexible  
+- Faster delivery  
+- Better customer satisfaction  
+
+### Cons
+- Less documentation  
+- Difficult for large projects  
+- Needs experienced team  
+
+---
+
+## 20. Use Case Diagram – OTT Platform
+
+### Actors
+- User
+- Admin
+
+### Use Cases
+- Register / Login  
+- Search Content  
+- Watch Video  
+- Subscribe  
+- Manage Content (Admin)  
+
+**Flow:**
+- User → Login → Watch Content  
+- Admin → Upload Movies  
+
+---
+
+## 21. Use Case Diagram – E-commerce Application
+
+### Actors
+- Customer
+- Admin
+
+### Use Cases
+- Browse Products  
+- Add to Cart  
+- Place Order  
+- Make Payment  
+- Track Order  
+
+**Flow:**
+- Customer → Browse → Add to Cart → Pay  
+- Admin → Manage Products  
+
+---
+
+## 22. Use Case – Online Shopping with Payment Gateway
+
+### Actors
+- Customer
+- Payment Gateway
+- Admin
+
+### Use Cases
+- Login  
+- Select Product  
+- Checkout  
+- Make Payment  
+- Order Confirmation  
+
+**Flow:**
+- Customer → Select Product → Checkout  
+- Payment Gateway → Process Payment  
+- Admin → Manage Orders  
+
+---
