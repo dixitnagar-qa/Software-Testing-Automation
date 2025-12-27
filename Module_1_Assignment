@@ -1,28 +1,24 @@
 # Module 1 – Fundamentals
 
 ---
-
 ## 1. What is SDLC?
 
-**SDLC (Software Development Life Cycle)** is a structured process used to design, develop, test, and maintain software applications efficiently and with good quality.
+SDLC (Software Development Life Cycle) is a structured process used to design, develop, test, and maintain software applications efficiently and with good quality.
 
 ---
-
 ## 2. What is Software Testing?
 
-**Software testing** is the process of evaluating a software application to identify defects and ensure it meets the specified requirements and works as expected.
+Software testing is the process of evaluating a software application to identify defects and ensure it meets the specified requirements and works as expected.
 
 ---
-
 ## 3. What is Agile Methodology?
 
-**Agile methodology** is a flexible and iterative approach to software development where requirements, solutions, and testing evolve through collaboration between cross-functional teams.
+Agile methodology is a flexible and iterative approach to software development where requirements, solutions, and testing evolve through collaboration between cross-functional teams.
 
 ---
-
 ## 4. What is SRS?
 
-**SRS (Software Requirement Specification)** is a detailed document that describes:
+SRS (Software Requirement Specification) is a detailed document that describes:
 
 - Functional requirements  
 - Non-functional requirements  
@@ -32,123 +28,66 @@
 It acts as a contract between the client and the development team.
 
 ---
-
 ## 5. What is OOPS?
 
 Some topics have been moved to another module as per the new syllabus; therefore, these topics were not covered by the instructor.
 
 ---
-
 ## 6. Basic Concepts of OOPS
 
 *(Moved to another module as per syllabus)*
 
 ---
-
 ## 7. What is an Object?
 
 *(Moved to another module as per syllabus)*
 
 ---
-
 ## 8. What is a Class?
 
 *(Moved to another module as per syllabus)*
 
 ---
-
 ## 9. What is Encapsulation?
 
 *(Moved to another module as per syllabus)*
 
 ---
-
 ## 10. What is Inheritance?
 
 *(Moved to another module as per syllabus)*
 
 ---
-
 ## 11. What is Polymorphism?
 
 Some topics have been moved to another module as per the new syllabus; therefore, these topics were not covered by the instructor.
 
 ---
-
 ## 12. Use Case Diagram – Online Bill Payment System (Paytm)
 
-### Actors
-- User
-- Bank
-- Admin
-
-### Use Cases
-- Register / Login  
-- Add Bank Account  
-- View Bills  
-- Pay Bill  
-- Transaction History  
-
-**Flow:**
-- User → Login → View Bills → Pay Bill  
-- User → Check History  
-- Admin → Manage Users  
-- Bank → Process Payment  
+Link:- https://drive.google.com/file/d/1Z5FxE7wKnhqhj7szF-c170WFyz_rXBRC/view?usp=drive_link
 
 ---
-
 ## 13. Use Case Diagram – Banking System (Customer)
 
-### Actors
-- Customer
-- Bank System
-
-### Use Cases
-- Login  
-- Check Balance  
-- Transfer Money  
-- Deposit  
-- Withdraw  
-- Logout  
-
-**Flow:**
-- Customer → Login  
-- Customer → Check Balance  
-- Customer → Transfer Money  
-- Customer → Logout  
+Link:- https://drive.google.com/file/d/1iJmBInpkd-IAv3-AmOjJJq9lkHBjL909/view?usp=drive_link 
 
 ---
-
 ## 14. Use Case Diagram – Broadcasting System
 
-### Actors
-- Viewer
-- Admin
-
-### Use Cases
-- Watch Channel  
-- Change Channel  
-- View Program Schedule  
-- Manage Content (Admin)  
-
-**Flow:**
-- Viewer → Watch Program  
-- Viewer → Change Channel  
-- Admin → Upload Content  
+Link:- https://drive.google.com/file/d/1U4DdEgK7YqkHq5lhIJHSDNZjHR8J05Jx/view?usp=drive_link
 
 ---
-
 ## 15. SDLC Phases with Basic Introduction
 
-1. **Requirement Analysis** – Collect user requirements  
-2. **Design** – Create system architecture  
-3. **Development** – Coding  
-4. **Testing** – Find defects  
-5. **Deployment** – Release software  
-6. **Maintenance** – Bug fixing and updates  
+1. Requirement Analysis – Collect user requirements  
+2. Design – Create system architecture  
+3. Development – Coding  
+4. Testing – Find defects  
+5. Deployment – Release software  
+6. Maintenance – Bug fixing and updates  
 
 ---
-
 ## 16. Phases of Waterfall Model
 
 1. Requirement Analysis  
@@ -159,7 +98,6 @@ Some topics have been moved to another module as per the new syllabus; therefore
 6. Maintenance  
 
 ---
-
 ## 17. Phases of Spiral Model
 
 1. Planning  
@@ -168,7 +106,6 @@ Some topics have been moved to another module as per the new syllabus; therefore
 4. Evaluation  
 
 ---
-
 ## 18. Agile Manifesto Principles
 
 1. Customer satisfaction  
@@ -184,7 +121,6 @@ Some topics have been moved to another module as per the new syllabus; therefore
 11. Continuous improvement  
 
 ---
-
 ## 19. Agile Model – Working, Pros & Cons
 
 ### Working Methodology
@@ -204,62 +140,18 @@ Some topics have been moved to another module as per the new syllabus; therefore
 - Needs experienced team  
 
 ---
-
 ## 20. Use Case Diagram – OTT Platform
 
-### Actors
-- User
-- Admin
-
-### Use Cases
-- Register / Login  
-- Search Content  
-- Watch Video  
-- Subscribe  
-- Manage Content (Admin)  
-
-**Flow:**
-- User → Login → Watch Content  
-- Admin → Upload Movies  
+Link:- https://drive.google.com/file/d/1tVlVuDx8Jw07lbNKdNcPimIddjlUyhUs/view?usp=sharing
 
 ---
-
 ## 21. Use Case Diagram – E-commerce Application
 
-### Actors
-- Customer
-- Admin
-
-### Use Cases
-- Browse Products  
-- Add to Cart  
-- Place Order  
-- Make Payment  
-- Track Order  
-
-**Flow:**
-- Customer → Browse → Add to Cart → Pay  
-- Admin → Manage Products  
+Link:- https://drive.google.com/file/d/1gCqB0CtXmH0tzNDeCrRSdc0U06s5ryp3/view?usp=sharing
 
 ---
-
 ## 22. Use Case – Online Shopping with Payment Gateway
 
-### Actors
-- Customer
-- Payment Gateway
-- Admin
-
-### Use Cases
-- Login  
-- Select Product  
-- Checkout  
-- Make Payment  
-- Order Confirmation  
-
-**Flow:**
-- Customer → Select Product → Checkout  
-- Payment Gateway → Process Payment  
-- Admin → Manage Orders  
+Link:- https://drive.google.com/file/d/10zcy0LjO-3Ea09xKk506uM8n6OkP2lYv/view?usp=sharing 
 
 ---
