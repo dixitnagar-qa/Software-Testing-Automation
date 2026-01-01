@@ -3,29 +3,40 @@
 ---
 ## 1. What is SDLC?
 
-SDLC (Software Development Life Cycle) is a structured process used to design, develop, test, and maintain software applications efficiently and with good quality.
+SDLC (Software Development Life Cycle) is a structured process used for software development.
+- It defines steps to build software systematically
+- It helps in planning, designing, developing, testing, and maintaining software
+- It ensures quality, cost control, and timely delivery
+- It reduces project risks and errors
 
 ---
 ## 2. What is Software Testing?
 
-Software testing is the process of evaluating a software application to identify defects and ensure it meets the specified requirements and works as expected.
+Software testing is the process of verifying and validating a software application.
+- It checks whether the software meets user requirements
+- It identifies defects or bugs in the application
+- It ensures the software works correctly and reliably
+- It improves software quality and performance
 
 ---
 ## 3. What is Agile Methodology?
 
-Agile methodology is a flexible and iterative approach to software development where requirements, solutions, and testing evolve through collaboration between cross-functional teams.
+Agile methodology is an iterative and flexible software development approach.
+- Development is done in small cycles called sprints
+- Customer feedback is taken frequently
+- Continuous testing is performed
+- Changes are accepted even in later stages
+- Team collaboration is encouraged
 
 ---
 ## 4. What is SRS?
 
-SRS (Software Requirement Specification) is a detailed document that describes:
-
-- Functional requirements  
-- Non-functional requirements  
-- System behavior  
-- Constraints  
-
-It acts as a contract between the client and the development team.
+SRS (Software Requirement Specification) is a formal document that describes software requirements.
+- Defines functional requirements
+- Defines non-functional requirements
+- Explains system behavior
+- Mentions constraints and assumptions
+- Acts as an agreement between client and development team 
 
 ---
 ## 5. What is OOPS?
@@ -65,12 +76,12 @@ Some topics have been moved to another module as per the new syllabus; therefore
 ---
 ## 12. Use Case Diagram – Online Bill Payment System (Paytm)
 
-Link:- https://drive.google.com/file/d/1Z5FxE7wKnhqhj7szF-c170WFyz_rXBRC/view?usp=drive_link
+Link:- https://drive.google.com/file/d/1fvgbHHhaW4w3kXcDIV3CM_Pa2R3mmN3c/view?usp=drive_link
 
 ---
 ## 13. Use Case Diagram – Banking System (Customer)
 
-Link:- https://drive.google.com/file/d/1iJmBInpkd-IAv3-AmOjJJq9lkHBjL909/view?usp=drive_link 
+Link:- https://drive.google.com/file/d/1st0RQ804cBPZHOpAc1V0QMMBwEa7vNDv/view?usp=drive_link 
 
 ---
 ## 14. Use Case Diagram – Broadcasting System
@@ -80,45 +91,112 @@ Link:- https://drive.google.com/file/d/1U4DdEgK7YqkHq5lhIJHSDNZjHR8J05Jx/view?us
 ---
 ## 15. SDLC Phases with Basic Introduction
 
-1. Requirement Analysis – Collect user requirements  
-2. Design – Create system architecture  
-3. Development – Coding  
-4. Testing – Find defects  
-5. Deployment – Release software  
-6. Maintenance – Bug fixing and updates  
+1. Requirement Analysis
+- Understand and collect user needs
+- Document requirements clearly before development 
+
+2. Design
+- Create system architecture and design models
+- Decide database, UI, and technology stack
+
+3. Development
+- Developers write source code
+- Features are implemented as per design
+
+4. Testing 
+- Test the application to find defects
+- Ensure software meets requirements
+
+5. Deployment 
+- Release software to production environment
+- Make it available to end users
+
+6. Maintenance 
+- Fix bugs after release
+- Add updates and improvements
 
 ---
 ## 16. Phases of Waterfall Model
 
 1. Requirement Analysis  
+- Gather complete and fixed requirements
+- No changes allowed after this phase
+
 2. System Design  
+- Prepare detailed system and software design
+- Define hardware and software requirements
+
 3. Implementation  
+- Coding is done based on design
+- Each module is developed separately
+
 4. Testing  
+- Test integrated modules
+- Identify and fix defects
+
 5. Deployment  
+- Software is delivered to customer
+- Installed in live environment
+
 6. Maintenance  
+- Handle issues after deployment
+- Perform enhancements if required
 
 ---
 ## 17. Phases of Spiral Model
 
 1. Planning  
-2. Risk Analysis  
+- Define project objectives and requirements
+- Plan resources and schedule
+
+2. Risk Analysis
+- Identify technical and business risks
+- Reduce risks using prototypes
+  
 3. Engineering  
+- Develop and test the software
+- Implement planned features
+
 4. Evaluation  
+- Customer reviews the product
+- Feedback is used for next cycle
 
 ---
 ## 18. Agile Manifesto Principles
 
-1. Customer satisfaction  
+1. Customer satisfaction 
+- Deliver valuable software early and continuously
+
 2. Welcome changing requirements  
+- Changes are accepted even late in development
+
 3. Frequent delivery  
+- Working software is delivered regularly
+
 4. Business & developer collaboration  
+- Business people and developers work together daily
+
 5. Working software  
+- Working product is the main measure of progress
+
 6. Face-to-face communication  
+- Direct communication is preferred
+
 7. Sustainable development  
+- Maintain a constant development pace
+
 8. Technical excellence  
+- Good design improves agility
+
 9. Simplicity  
+- Focus on essential work only
+
 10. Self-organizing teams  
+- Teams manage their own work
+
 11. Continuous improvement  
+- Team regularly improves processes
+
 
 ---
 ## 19. Agile Model – Working, Pros & Cons
@@ -152,6 +230,6 @@ Link:- https://drive.google.com/file/d/1gCqB0CtXmH0tzNDeCrRSdc0U06s5ryp3/view?us
 ---
 ## 22. Use Case – Online Shopping with Payment Gateway
 
-Link:- https://drive.google.com/file/d/10zcy0LjO-3Ea09xKk506uM8n6OkP2lYv/view?usp=sharing 
+Link:- https://drive.google.com/file/d/17wYO31VCe6q7kb5i9A79SzF9OblyIGn6/view?usp=drive_link 
 
 ---
