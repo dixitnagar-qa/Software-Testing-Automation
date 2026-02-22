@@ -1,0 +1,569 @@
+# Module 2 – Manual Testing
+
+---
+## 1. What is Exploratory Testing?
+
+Exploratory testing is an informal testing approach where testers explore the application without predefined test cases.
+- Testing and learning happen at the same time
+- No detailed test cases are required
+- Useful when requirements are unclear
+- Helps find unexpected defects
+
+---
+## 2. What is Traceability Matrix (RTM)?
+
+RTM (Requirement Traceability Matrix) is a document that maps requirements with test cases.
+- Ensures all requirements are covered
+- Helps track missing requirements
+- Maintains linkage between requirement and testing
+- Used during audits and reviews
+
+---
+## 3. What is Boundary Value Testing?
+
+Boundary Value Testing checks values at the boundary limits.
+- Tests minimum and maximum values
+- Focuses on edge cases
+- Errors mostly occur at boundaries
+- Example: Age field 1–100, test 0,1,100,101
+
+---
+## 4. What is Equivalence Partitioning Testing?
+
+Equivalence Partitioning divides input data into valid and invalid groups.
+- Reduces number of test cases
+- Tests one value from each group
+- Saves time and effort
+- Example: Age 1–100 → Valid (1–100), Invalid (<1, >100)
+
+---
+## 5. What is Integration Testing?
+
+Integration testing checks combined modules.
+- Tests interaction between modules
+- Ensures data flow is correct
+- Done after unit testing
+- Detects interface defects
+
+---
+## 6. What Determines the Level of Risk?
+
+Risk level depends on impact and probability.
+- Impact of failure
+- Probability of defect occurrence
+- Business importance
+- Complexity of feature
+
+---
+## 7. What is Alpha Testing?
+
+Alpha testing is done before releasing the product to customers.
+- Performed by internal team
+- Done at developer’s site
+- Finds major defects
+- Done before beta testing
+
+---
+## 8. What is Beta Testing?
+
+Beta testing is done by real users before final release.
+- Performed at customer environment
+- Real users test the product
+- Collects user feedback
+- Improves product quality
+
+---
+## 9. What is Component Testing?
+
+Component testing tests individual modules separately.
+- Also called Unit Testing
+- Done by developers
+- Checks small parts of application
+- Detects early defects
+
+---
+## 10. What is Functional System Testing?
+
+Functional system testing verifies system functionality.
+- Checks complete system behavior
+- Validates functional requirements
+- Performed by QA team
+- Based on SRS document
+
+---
+## 11. What is Non-Functional Testing?
+
+Non-functional testing checks performance and other non-functional aspects.
+- Tests speed and response time
+- Checks security and usability
+- Validates reliability
+- Focuses on system performance
+
+---
+## 12. What is GUI Testing?
+
+GUI testing checks graphical user interface.
+- Verifies buttons, icons, menus
+- Checks alignment and layout
+- Validates colors and fonts
+- Ensures user-friendly design
+
+---
+## 13. What is Adhoc Testing?
+
+Adhoc testing is informal testing without documentation.
+- No test cases required
+- Done randomly
+- Based on tester experience
+- Finds quick defects
+
+---
+## 14. What is Load Testing?
+
+Load testing checks system performance under expected load.
+- Tests normal user traffic
+- Measures response time
+- Checks system stability
+- Ensures system handles users
+
+---
+## 15. What is Stress Testing?
+
+Stress testing checks system beyond normal limits.
+- Tests extreme load conditions
+- Finds breaking point
+- Checks system recovery
+- Ensures system stability
+
+---
+## 16. What is White Box Testing?
+
+White box testing tests internal code structure.
+- Tester knows program logic
+- Checks code paths
+- Performed by developers
+
+---
+## 17. What is Black Box Testing?
+
+Black box testing tests software without knowing internal code.
+- Focuses on input and output
+- Based on requirements
+- Performed by testers
+
+---
+## 18. What are Categories of Defects?
+
+Defects are classified based on nature.
+- Functional defects
+- Performance defects
+- UI defects
+- Security defects
+- Compatibility defects
+
+---
+## 19. What is Big Bang Testing?
+
+Big Bang testing integrates all modules together.
+- Testing done after full development
+- No incremental integration
+- Difficult to find root cause
+- Used in small projects
+
+---
+## 20. What is Purpose of Exit Criteria?
+
+Exit criteria defines when testing should stop.
+- Ensures all test cases executed
+- Confirms critical defects fixed
+- Meets quality standards
+- Helps decide release readiness
+
+---
+## 21. When Should Regression Testing Be Performed?
+
+Regression testing is performed after changes in application.
+- After bug fixing
+- After new feature added
+- After enhancement
+- Before release
+
+---
+## 22. What are 7 Key Principles of Testing?
+
+- Testing shows presence of defects
+- Exhaustive testing is impossible
+- Early testing saves cost
+- Defect clustering
+- Pesticide paradox
+- Testing is context dependent
+- Absence of errors is fallacy
+
+---
+## 23. Difference Between QA vs QC vs Tester
+
+QA (Quality Assurance):
+- Process-oriented
+- Prevents defects
+- Focus on improving process
+
+QC (Quality Control):
+- Product-oriented
+- Detects defects
+- Focus on testing
+
+Tester:
+- Executes test cases
+- Reports bugs
+- Ensures product quality
+
+---
+## 24. Difference Between Smoke and Sanity Testing
+
+Smoke Testing:
+- Checks basic functionality
+- Done after build received
+- Broad and shallow testing
+
+Sanity Testing:
+- Checks specific functionality
+- Done after bug fixing
+- Narrow and deep testing
+
+---
+## 25. Difference Between Verification and Validation
+
+Verification:
+- Checks documents and design
+- "Are we building the product right?"
+- No code execution
+
+Validation:
+- Checks actual product
+- "Are we building the right product?"
+- Involves testing
+
+---
+## 26. Types of Performance Testing
+
+- Load Testing
+- Stress Testing
+- Volume Testing
+- Spike Testing
+- Endurance Testing
+
+---
+## 27. What is Error, Defect, Bug, Failure?
+
+Error:
+- Mistake made by developer
+
+Defect:
+- Problem in software
+
+Bug:
+- Defect found during testing
+
+Failure:
+- When system does not work as expected
+
+---
+## 28. Difference Between Priority and Severity
+
+Severity:
+- Impact of defect on system
+
+Priority:
+- Urgency to fix defect
+
+---
+## 29. What is Bug Life Cycle?
+
+Bug life cycle is stages of defect.
+- New
+- Assigned
+- Open
+- Fixed
+- Retest
+- Closed
+- Reopened (if needed)
+
+---
+## 30. Difference Between Functional and Non-Functional Testing
+
+Functional Testing:
+- Tests features and functionality
+- Based on requirements
+- Example: Login working or not
+
+Non-Functional Testing:
+- Tests performance and security
+- Checks speed and usability
+- Example: Response time under load
+
+---
+## 31. To create HLR & TestCase of 
+
+    1)Instagram first page and chat functionality
+	Link:- https://drive.google.com/drive/folders/1Ro2GdT-Ik-6rPovuqq17XBmGlB4N3Bq1?usp=sharing
+
+    2) Facebook first page and chat functionality
+	Link:- https://drive.google.com/drive/folders/1158sOlTyuMveSUi4D0Tc77VqjnBQL82A?usp=sharing
+
+---
+## 32. Difference Between STLC and SDLC
+
+SDLC (Software Development Life Cycle):
+SDLC is the complete process of developing software.
+- Covers requirement to maintenance
+- Includes design, development, testing, deployment
+- Focused on building the software
+- Followed by developers and project team
+
+STLC (Software Testing Life Cycle):
+STLC is the testing process inside SDLC.
+- Covers only testing activities
+- Includes test planning, test design, execution
+- Focused on quality verification
+- Followed by QA team
+
+---
+## 33. Difference Between Test Scenario, Test Case, and Test Script
+
+Test Scenario:
+A high-level idea of what to test.
+- Covers a functionality
+- Broad testing concept
+- Example: Test Login Feature
+
+Test Case:
+A detailed step-by-step document to test functionality.
+- Contains steps, input, expected result
+- Based on test scenario
+- Used for manual testing
+
+Test Script:
+An automated version of test case.
+- Written in programming language
+- Used in automation tools
+- Executes automatically
+
+---
+## 34. What is Test Plan?
+
+Test Plan is a document that describes the testing strategy and scope.
+- Defines what to test
+- Defines how to test
+- Defines resources and schedule
+- Prepared by Test Lead
+
+Information Covered in Test Plan:
+- Project details
+- Scope of testing
+- Testing objectives
+- Test strategy
+- Test environment
+- Roles and responsibilities
+- Schedule and timeline
+- Entry and exit criteria
+- Risk and mitigation
+
+---
+## 35. What is Priority?
+
+Priority defines how quickly a defect should be fixed.
+- Decided by business team
+- Based on urgency
+- High priority → Fix immediately
+- Low priority → Can fix later
+
+---
+## 36. What is Severity?
+
+Severity defines how serious the defect is.
+- Decided by QA team
+- Based on impact on system
+- High severity → System crash
+- Low severity → Minor UI issue
+
+---
+## 37. Bug Categories Are…
+
+Bugs can be categorized as:
+- Functional bugs
+- UI bugs
+- Performance bugs
+- Security bugs
+- Compatibility bugs
+- Validation bugs
+
+---
+## 38. Advantages of Bugzilla
+
+Bugzilla is a bug tracking tool.
+- Tracks defects easily
+- Maintains bug history
+- Assigns bugs to developers
+- Generates reports
+- Open-source and free
+
+---
+## 39. Difference Between Priority and Severity
+
+Severity:
+- Impact of defect on system
+- Decided by tester
+- Technical importance
+
+Priority:
+- Urgency to fix defect
+- Decided by business or manager
+- Business importance
+
+---
+## 40. Different Methodologies in Agile Development Model
+
+- Scrum
+- Kanban
+- Extreme Programming (XP)
+- Lean Development
+- Crystal
+Each methodology focuses on flexibility and iterative development.
+
+---
+## 41. Difference Between Authentication and Authorization
+
+Authentication:
+Authentication verifies user identity.
+- Checks username and password
+- Confirms who the user is
+- Example: Login process
+
+Authorization:
+Authorization gives access permissions.
+- Checks user rights
+- Defines what user can access
+- Example: Admin vs Normal User
+
+Common Problems Faced in Web Testing:
+- Browser compatibility issues
+- Slow page loading
+- Security vulnerabilities
+- Broken links
+- Session timeout issues
+- Database connectivity issues
+- Responsive design problems
+
+---
+## 42. To create HLR & TestCase of WebBased (WhatsApp web)
+1. WhatsApp Web : https://web.whatsapp.com/
+Link:- https://drive.google.com/drive/folders/14Q8ExLzyBH7o52eRHCTtnWMA8Mo-_Bxh?usp=drive_link
+
+---
+## 43. Write a scenario of only Whatsapp chat messages
+Link:- https://docs.google.com/spreadsheets/d/1qX5zJW-jwiMGsD4rF0SOi8vBCwoadHt3/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 44. Write a Scenario of Pen
+Link:- https://docs.google.com/spreadsheets/d/1Z9BfB5AwYCEim_cA1vEjWr0jGP2d0b1R/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 45. Write a Scenario of Pen Stand
+Link:- https://docs.google.com/spreadsheets/d/1MB5Zt00iBG63Rns3qi_uvbEP3bkCXzVu/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 46. Write a Scenario of Door
+Link:- https://docs.google.com/spreadsheets/d/1_60cAig2f_6GIWX4cc4nrG_01L8-_tgX/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 47. Write a Scenario of ATM
+Link:- https://docs.google.com/spreadsheets/d/1yhTFMxlHqraS1dgq4bm0B84o52cAD-F0/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 48. When to used Usablity Testing?
+
+Usability Testing:
+Usability testing is used to check how easy and user-friendly the application is for end users.
+- When launching a new product or feature
+- When improving user experience (UI/UX)
+- When redesigning an existing application
+- When users face difficulty in navigation
+- Before final product release
+
+Purpose:
+- Ensure application is easy to understand
+- Improve user satisfaction
+- Reduce user errors
+- Improve efficiency and performance
+
+Example:
+-Checking if users can easily complete checkout process in an e-commerce app
+- Verifying if forms are simple and understandable
+
+---
+## 49. What is the procedure for GUI Testing?
+
+GUI Testing:
+GUI Testing verifies the graphical user interface of an application.
+
+Step 1: Understand Requirements
+- Study UI/UX design documents
+- Review wireframes or mockups
+
+Step 2: Check UI Elements
+- Verify buttons, textboxes, labels, dropdowns
+- Check alignment and layout
+
+Step 3: Validate Visual Design
+- Check fonts, colors, icons
+- Verify images and logos
+
+Step 4: Check Navigation
+- Verify links and menus
+- Ensure proper screen transitions
+
+Step 5: Validate Functionality
+- Check button click actions
+- Verify error messages
+
+Step 6: Cross Browser / Device Testing
+- Test on different browsers
+- Test on different screen sizes
+
+Example:
+- Verify Login page design and alignment
+- Check if Submit button works correctly
+- Validate error message display when invalid input entered
+
+---
+## 50. Write a scenario of Microwave Owen
+Link:- https://docs.google.com/spreadsheets/d/1d96JJwgsLCgEtOFrwA7YybkNa-8b74KB/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 51. Write a scenario of Coffee vending Machine
+Link:- https://docs.google.com/spreadsheets/d/1clujG6aNBxoAEq1JMc-Nub2Mt2XY3rOa/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 52. Write a scenario of chair
+Link:- https://docs.google.com/spreadsheets/d/1nO6V_RxJ2RxhXE4QAux9kIUAa82KYk1z/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 53. To Create Scenario (Positive & Negative) / Create Test Cases on Compose Mail Functionality.
+Link:- https://drive.google.com/drive/folders/1AZMQpwBDOnMe-mFtBXrt3F6yFkq5JOgB?usp=drive_link
+
+---
+## 54. To create HLR & TestCase of Online shopping to buy product (flipkart)
+Link:- https://drive.google.com/drive/folders/1j54uBZBn5WAR0wTmkWGrtj-OkHTGU4wn?usp=sharing
+
+---
+## 55. Write a Scenario of Wrist Watch
+Link:- https://docs.google.com/spreadsheets/d/1lhIr_WyTp7f9Tk_Kw7QeifEu0ebA0gtA/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 56. Write a Scenario of Lift(Elevator)
+Link:- https://docs.google.com/spreadsheets/d/1Vhf4UWRHmk5COy1_DHwViQBO0SpHwIj7/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 57. Write a Scenario of Whatsapp payment
+Link:- https://docs.google.com/spreadsheets/d/12GcepXpD_oGWmGryx3ZHPySlPqWCf2GC/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
