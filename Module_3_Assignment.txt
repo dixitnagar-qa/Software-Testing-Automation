@@ -1,0 +1,19 @@
+# Module 3 – Testing on Live Application
+
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+---
+## 1. Open above URL where you can see usename and password login into app.
+## 2. Create HLR of Admin, PIM, Recruitment and Dashboard section.
+Link: https://docs.google.com/document/d/1YXryWjnFyk-zMuT6VvE7ai66OhaDlP6l/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 3. Create Scenario of above mentioned sections.
+Link: https://docs.google.com/spreadsheets/d/12uXdIcRPAxgtXILD0lwzr0Tb0C4kYdJR/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 4. Create Test cases Leave, Time, MyInfo and Claim Section.
+Link: https://docs.google.com/spreadsheets/d/1gn_SLVn-I4wO4_xljt1ufILGQ5NS1fg3/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
+
+---
+## 5. Generate Test Plan for this application.
+Link: https://docs.google.com/document/d/1dQ3qNVUN6-xA_3_phOh6-4fp8vUL4fIt/edit?usp=drive_link&ouid=102477484234567952398&rtpof=true&sd=true
