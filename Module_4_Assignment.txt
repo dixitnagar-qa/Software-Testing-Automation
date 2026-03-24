@@ -1,0 +1,273 @@
+# Module 4 – Database
+
+## 1. What is RDBMS?
+
+RDBMS (Relational Database Management System) is software that stores and manages data in the form of tables (rows and columns).
+It helps to organize data and create relationships between tables using keys like primary key and foreign key.
+
+RDBMS also supports data security, data consistency, and multiple user access.
+Examples: MySQL, Oracle, SQL Server
+
+----
+## 2. What is SQL?
+
+SQL (Structured Query Language) is used to store, manage, and retrieve data from databases.
+
+It allows users to perform operations like:
+Creating tables
+Inserting data
+Updating records
+Deleting data
+Fetching data
+SQL is easy to learn and widely used in database management systems.
+
+---
+## 3. SQL Commands
+
+1. DDL (Data Definition Language)
+
+ CREATE:-
+	CREATE TABLE students (
+	id INT,
+	name VARCHAR(50)
+	);
+	
+ DROP:-
+    DROP TABLE students;
+	
+ ALTER:-
+    ALTER TABLE students ADD age INT;
+	
+ TRUNCATE:-
+    TRUNCATE TABLE students;
+
+ RENAME:-
+    RENAME TABLE students TO student_info;
+	
+2. DML (Data Manipulation Language)
+
+ INSERT:-
+    INSERT INTO student_info (id, name)
+    VALUES (1, 'Dixit Nagar');
+   
+ UPDATE:-
+	UPDATE student_info
+	SET name = 'Dixit Nagar'
+	WHERE id = 1;
+
+ DELETE:-
+	DELETE FROM student_info
+	WHERE id = 1;
+
+3. TCL (Transaction Control Language)
+
+ COMMIT:-
+    COMMIT;
+	
+ SAVEPOINT:-
+    SAVEPOINT sp1;
+	
+ ROLLBACK:-
+    ROLLBACK TO sp1;
+	
+4. DQL (Data Query Language)
+
+ SELECT:-
+    SELECT name FROM student_info WHERE id = 1;
+	
+5. DCL (Data Control Language)
+
+ GRANT:-
+    GRANT SELECT ON student_info TO user1;
+
+ REVOKE:-
+    REVOKE SELECT ON student_info FROM user1;
+
+---
+## 4. What is JOIN?
+
+JOIN is used to combine data from two or more tables based on a related column (usually a key).
+
+It helps to retrieve meaningful data from multiple tables in a single query.
+For example, combining student and course tables to get complete information.
+
+---
+## 5. Types of JOIN
+
+INNER JOIN – Returns only matching records from both tables
+LEFT JOIN – Returns all records from left table and matched records from right
+RIGHT JOIN – Returns all records from right table and matched records from left
+FULL JOIN – Returns all records from both tables (matched + unmatched)
+
+---
+## 6. Constraints in SQL
+
+Constraints are rules applied on table columns to maintain data accuracy and integrity.
+
+NOT NULL – Column cannot have empty values
+UNIQUE – All values must be different
+PRIMARY KEY – Uniquely identifies each record
+FOREIGN KEY – Links one table with another
+CHECK – Ensures condition is satisfied
+DEFAULT – Assigns default value if no value is given
+
+---
+## 7. Difference Between DBMS and RDBMS
+
+       DBMS	            |      RDBMS
+-------------------------------------------------
+Stores data as files	| Stores data in tables
+No relationships	    | Maintains relationships
+No constraints	        | Supports constraints
+Example: MS Access	    | Example: MySQL
+
+## 8. What is SQL Alias?
+
+  SELECT name AS StudentName FROM Students;
+  
+---
+## 9. Create Table Query
+
+	CREATE TABLE Students (
+	ID INT PRIMARY KEY AUTO_INCREMENT,
+	Name VARCHAR(50),
+	Age INT,
+	City VARCHAR(50)
+	);
+
+---
+## 10. Insert Data Query
+
+	INSERT INTO Students (ID, Name, Age, City)
+	VALUES
+	(1, 'Dixit Nagar', 24, 'Ahmedabad'),
+	(2, 'Rahul Patel', 25, 'Surat'),
+	(3, 'Priya Shah', 23, 'Vadodara'),
+	(4, 'Amit Mehta', 22, 'Rajkot');
+
+---
+## 11. Update Data with Condition
+
+	UPDATE Students
+	SET Name = 'Dixit Nagar'
+	WHERE Name = 'Amit Mehta' AND Age < 23;
+
+---
+## 12. Delete Data with Condition
+
+	DELETE FROM Students
+	WHERE ID = 2 AND City = 'Surat';
+
+---
+## 13. Add New Column
+
+	ALTER TABLE Students
+	ADD COLUMN Email VARCHAR(100);
+
+---
+## 14. Drop Table & Database
+
+	DROP TABLE students;
+	DROP DATABASE CollegeDB;
+
+---
+## 15. Find MAX & MIN
+
+	SELECT MAX(Age) FROM Students;
+	SELECT MIN(Age) FROM Students;
+
+---
+## 16. JOIN Example with Tables
+
+	CREATE TABLE Seller (
+	Seller_ID INT PRIMARY KEY,
+	Seller_Name VARCHAR(100),
+	Location VARCHAR(100)
+	);
+
+	CREATE TABLE Product (
+	Product_ID INT PRIMARY KEY,
+	Product_Name VARCHAR(100),
+	Price DECIMAL(10,2),
+	Seller_ID INT,
+	FOREIGN KEY (Seller_ID) REFERENCES Seller(Seller_ID)
+	);
+
+Insert Data:-
+
+	INSERT INTO Seller VALUES
+	(1, 'Nagar Traders', 'Ahmedabad'),
+	(2, 'Patel Electronics', 'Surat'),
+	(3, 'Shah Tech', 'Vadodara');
+
+	INSERT INTO Product VALUES
+	(101, 'Laptop', 55000, 1),
+	(102, 'Mobile', 20000, 2),
+	(103, 'Headphones', 2500, 3),
+	(104, 'Monitor', 8000, 1);
+	
+INNER JOIN:-
+
+	SELECT Product.Product_Name, Product.Price, Seller.Seller_Name
+	FROM Product
+	INNER JOIN Seller
+	ON Product.Seller_ID = Seller.Seller_ID;
+
+---
+## 17. What is API Testing?
+
+API Testing checks whether applications communicate correctly and exchange data properly without using a user interface (UI).
+
+It focuses on:
+Request and response validation
+Data accuracy
+Performance
+Security
+
+API testing is faster and more reliable than UI testing.
+
+---
+## 18. Types of API Testing
+
+Open APIs (Public APIs) – Available for everyone to use
+Partner APIs – Shared with specific partners with access control
+Internal APIs (Private APIs) – Used within an organization only
+
+---
+## 19. What is Responsive Testing?
+
+Responsive testing ensures that an application or website works properly on different devices like mobile, tablet, and desktop.
+
+It checks:
+Layout adjustment
+Screen resolution compatibility
+User experience
+Navigation and readability
+
+---
+## 20. Responsive Testing Tools
+
+LT Browser – Test websites on multiple screen sizes
+LambdaTest – Cloud-based cross-browser testing
+Google Resizer – Check responsiveness quickly
+Am I Responsive – Visual testing tool
+Pixel Tuner – Helps adjust UI elements
+
+---
+## 21. Full Form
+
+IPA – iOS App Store Package (used for iPhone apps)
+APK – Android Package Kit (used for Android apps)
+
+---
+## 22. Enable Developer Mode Steps
+
+1) Go to Settings
+2) Tap About Phone
+3) Open Software Information
+4) Find Build Number
+5) Tap it 7 times continuously
+6) Enter your PIN/Password
+7) Message will appear: Developer Mode Enabled
+
+---
