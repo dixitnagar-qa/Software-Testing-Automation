@@ -1,0 +1,85 @@
+# Module 5 – ST - Automation and Selenium
+
+## 1. What is Automation Testing?
+
+Automation Testing is the process of using tools and scripts to test software automatically without manual effort.
+Instead of a tester checking every feature manually, automation tools execute test cases, compare actual results with expected results, and generate reports.
+
+	It is mainly used for:
+	Repetitive tasks
+	Regression testing
+	Large test data
+	Performance and load testing
+
+Example: Using Selenium to automatically test login functionality multiple times.
+
+---
+## 2. Which Browsers Are Supported By Selenium IDE?
+
+Selenium IDE supports the following browsers:
+
+	Google Chrome
+	Mozilla Firefox
+	Microsoft Edge (Chromium-based)
+
+These browsers support Selenium IDE as a browser extension.
+Older browsers like Internet Explorer are not supported in Selenium IDE.
+
+
+---
+## 3. What are the Benefits of Automation Testing?
+
+Automation Testing provides many benefits:
+
+	Saves Time – Executes test cases faster than manual testing
+	Improves Accuracy – Reduces human errors
+	Reusable Scripts – Same test scripts can be reused multiple times
+	Better Test Coverage – Can test large applications easily
+	Continuous Testing – Supports CI/CD pipelines
+	Cost Effective (Long-term) – Reduces effort in repeated testing
+
+
+---
+## 4. What are the Advantages of Selenium?
+
+Selenium is one of the most popular automation tools because:
+
+	Open Source – Free to use
+	Supports Multiple Languages – Java, Python, C#, JavaScript
+	Cross Browser Testing – Works on Chrome, Firefox, Edge
+	Cross Platform – Works on Windows, Linux, Mac
+	Integration Support – Works with TestNG, JUnit, Jenkins
+	Large Community Support – Easy to find help and resources
+
+
+---
+## 5. Why Testers Should Opt for Selenium and Not QTP?
+
+Testers prefer Selenium over QTP (UFT) due to the following reasons:
+
+Selenium:-
+	Open source (free)
+	Supports multiple programming languages
+	Works on multiple browsers and platforms
+	Easy integration with modern tools (CI/CD)
+	Strong community support
+
+QTP (UFT):-
+	Paid tool (license required)
+	Mostly supports VBScript only
+	Limited browser and platform support
+	Less flexible compared to Selenium
+
+---
+## 6. To validate the tops technologies website Contact us page and enter your friend detail at last “Login and sidemenu” https://www.saucedemo.com/
+
+1. Tops Technologies Contact Us:
+Link: https://drive.google.com/file/d/1Xv9irHioGqT4M8oI1U573XzZV-TENuno/view?usp=sharing
+
+2. Sauce Demo Wesite
+1. Sauce Demo Login Page:-
+Link: https://drive.google.com/file/d/1eemEuUBFQ3xhVxdworsw-zD9rCXPxRR_/view?usp=sharing
+
+2. Sauce Demo Sidebar:-
+Link: https://drive.google.com/file/d/1p71vdEZWb9UTPUCH8IuMXKwrb9MfutUF/view?usp=sharing
+
